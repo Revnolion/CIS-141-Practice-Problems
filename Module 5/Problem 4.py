@@ -5,10 +5,7 @@
 # 4   8   12  16  20
 # 5   10  15  20  25
 
-row = 1,6
-column = 1,6
-
 for row in range(1,6):
     for column in range(1,6):
-        print(row * column)
+        print(row * column, end='\t')
     print()
